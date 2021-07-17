@@ -50,8 +50,8 @@ class Formulario extends React.Component {
                 <br />
                 <label>
                     Sou:
-                    <input type="radio" checked={this.state.tipo == 'programador'} onChange={this.changeRadio} value="programador" /> Programador
-                    <input type="radio" checked={this.state.tipo == 'estudante'} onChange={this.changeRadio} value="estudante"/> Estudante
+                    <input type="radio" checked={this.state.tipo === 'programador'} onChange={this.changeRadio} value="programador" /> Programador
+                    <input type="radio" checked={this.state.tipo === 'estudante'} onChange={this.changeRadio} value="estudante"/> Estudante
                 </label>
                 <br/>
                 <label>
